@@ -1,0 +1,264 @@
+body{
+    background-color: #beb6df;
+}
+.mainpage-nav{
+
+    display: inline;
+}
+header{
+    background-image: linear-gradient(to left, #86a8e7, #91eac9, #feb47b);
+    padding: 10px 5px 5px 5px;
+    margin: -10px -10px 0 -10px;
+    border-radius: 10px;
+}
+.list-holder{
+    margin-top: -31px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.brand-name{
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eac9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    display: inline;
+}
+.Home-anchor{
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: color 1s ease, font-size 0.3s ease;
+}
+.Products-anchor{
+    font-weight: bold;
+    margin-left: -100px;
+    font-size: 17px;
+    transition: color 1s ease, font-size 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Aboutus-anchor{
+    font-weight: bold;
+    margin-left: -100px;
+    font-size: 17px;
+    transition: color 1s ease, font-size 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Home-anchor:hover{
+
+    font-size: 18px;
+    color: #71717c;
+   
+}
+.Aboutus-anchor:hover
+{
+    font-size: 18px;
+    color: #71717c;
+   
+}
+.Products-anchor:hover{
+    font-size: 18px;
+    color: #71717c;
+   
+}
+#Aboutus-sec{
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 30px;
+}
+.Aboutus-header{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+.Aboutus-info
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: large;
+}
+.Products-button{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.potty{
+    background-color: #ddba5b;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 10px 10px 10px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #3b1900;
+    transition: color 1s ease, font-size 0.3s ease,border-style 1s;
+}
+.potty:hover{
+    font-size: 18px;
+    color: beige;
+    border-style: none;
+}
+.footer-socials{
+    margin-top: 215px;
+    display: flex;
+    background-color: #9F9FA8;
+    padding-bottom: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -100px;
+    justify-content: center;
+    align-items: center;
+}
+.instalogo{
+    padding-top: 50px;
+    width: 3%;
+}
+.copyright{
+    margin-top: 60px;
+}
+#Products-landing{
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    justify-content: space-evenly;
+    margin-top: -5px;
+}
+.products-sell {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid;
+    border-radius: 5px;
+    background-color: rgb(255, 167, 182);
+    border-color: rgb(95, 129, 129);
+    width: 200px;
+    height: 350px;
+    /* Apply transition on width and height */
+     transition: width 0.3s, height 0.3s;
+}
+.skip-link {
+    position: absolute; /* Position it off-screen initially */
+    top: 0;
+    left: 0;
+    transform: translate(-100%, -100%);
+    background-color: #36454F; /* A contrasting color for visibility */
+    color: white; /* Text color */
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+    z-index: 1000; /* Ensure it appears above other elements */
+    border-radius: 5px;
+    transition: transform 0.3s; /* Smooth appearance */
+}
+
+.skip-link:focus {
+    transform: translate(10px, 10px); /* Move it into view when focused */
+    outline: none; /* Remove default outline for better styling */
+}
+
+.products-sell:hover
+{
+    width: 210px;
+    height: 360px;
+}
+.products-sell img{
+    width: 100%;
+    height: 100%;
+}
+.products-sell p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #ffc7ec;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+}
+.Addtocart{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f85ac3;
+    padding: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #e7029b;
+    transition: background-color 0.3s, border-color 0.3s,font-weight 0.5s;
+}
+.Addtocart:hover{
+    background-color: #d2d1fa;
+    border-style: solid;
+    border-color: #a0a0be;
+    font-weight: bold;
+}
+.tatti{
+    margin-top: -20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+.Biglogo{
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b, #86a8e7, #91eac9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    ;
+    font-style:oblique;
+    display: flex;
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.mainpage{
+    background-image: linear-gradient(to right, #86a8e7, #91eac9, #feb47b, #ff7e5f);
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+}
+.produ{
+    margin-right: 250px;
+    color: #ff7e5f;
+    border-style: solid;
+    font-size: x-large;
+    border-radius: 10px;
+    padding: 5px;
+    transition: font-size 0.3s;
+}
+.produ:hover{
+    font-size: xx-large;
+}
+.about{
+    color:#86a8e7 ;
+    border-style: solid;
+    font-size: x-large;
+    border-radius: 10px;
+    padding: 5px;
+    transition: font-size 0.3s;
+}
+.about:hover{
+    font-size: xx-large;
+}
+
+
+
+
+
+
+
+
